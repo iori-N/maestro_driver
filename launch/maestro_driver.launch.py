@@ -15,13 +15,13 @@ def generate_launch_description():
         ),
         DeclareLaunchArgument(
             'ch1_channel',
-            default_value='1',
-            description='Maestro channel number for ch1',
+            default_value='0',
+            description='Maestro channel number for ch1 (left paddle)',
         ),
         DeclareLaunchArgument(
             'ch2_channel',
-            default_value='0',
-            description='Maestro channel number for ch2',
+            default_value='1',
+            description='Maestro channel number for ch2 (right paddle)',
         ),
         DeclareLaunchArgument(
             'failsafe_timeout',
